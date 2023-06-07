@@ -276,10 +276,24 @@ footer {
 }
 
 .gal-pic {
-    margin: 5px;
-    padding-left: 24%;
-}
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    padding-left: 0; 
+  }
+  
+  .gal-pic .image-container {
+    order: 1; 
+  }
+  
+  .gal-pic img {
+    display: block;
+    margin-bottom: 10px;
+    border: 5px outset black;
+  }  
+  
 .image {
     display: block;
     margin-left: auto;
