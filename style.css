@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro&family=Castoro+Titling&family=Cedarville+Cursive&family=Parisienne&family=Satisfy&display=swap');
 
+/* Mobile Devices */
+@media (max-width: 767px) {
+  
+}
+
+/* Laptops */
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+/* Desktops */
+@media (min-width: 1024px) {
+  
+}
+
 body {
     margin: 0;
     padding: 0;
