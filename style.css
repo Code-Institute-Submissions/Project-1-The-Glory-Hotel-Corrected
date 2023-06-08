@@ -2,397 +2,1162 @@
 
 /* Mobile Devices */
 @media (max-width: 767px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        width: 100%;
+        position: relative;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 100px;
+        margin: 0;
+        padding: 0;
+        color: #f5f5f5;
+    }
+    
+    #cursive {
+        text-align: center;
+        font-family: 'Parisienne', cursive;
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        color: #f5f5f5;
+    }
+    
+    #cursive2 {
+        text-align: center;
+        font-family: 'Parisienne', cursive;
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        color: #f5f5f5;
+    }
+    
+    #navigation {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: none;
+    }
+    
+    .nav-text {
+        color: #000;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #f2f7fa;
+        border: double;
+        border-radius: 50px;
+    }
+    
+    h2 {
+        font-family: 'Castoro Titling', cursive;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .home-p {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    #home-padding {
+        text-align: left;
+        padding: 10px;
+        width: 400px;
+        height: 580px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        border: double;
+        margin: 0 auto;
+    }
+    
+    h3 {
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        margin: 0;
+        font-weight: bold;
+    }
+    
+    .paragraph {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+    }
+    
+    p {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+    }
+    
+    .comments1,
+    .comments2,
+    .comments3 {
+        background-color: rgba(192, 192, 192, 1);
+        width: 30vw;
+        height: 30vh;
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 5px;
+        border: 5px outset black;
+        border-radius: 20px 40px 5px 50px;
+        background-image: url("assets/images/fivestar.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #comments-head {
+        margin: auto;
+        padding: 5px;
+        height: fit-content;
+        width: fit-content;
+    }
+    
+    .comments-font {
+        font-size: 15px;
+    }
+    
+    ul {
+        text-align: center;
+        font-family: 'Castoro', serif;
+        font-size: 19px;
+        list-style-position: inside;
+        padding-top: 0;
+    }
+    
+    footer {
+        background-color: black;
+        text-align: center;
+        width: 100%;
+        height: 250px;
+        padding: 0;
+    }
+    
+    .footer-font1,
+    .footer-font2 {
+        text-decoration: none;
+        font-size: 18px;
+        color: gold;
+    }
+    
+    .footer-font2 {
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    #footer-font3 {
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    #room-body {
+        background-image: url("assets/images/roombackground.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .room-font {
+        color: #fff;
+    }
+    
+    .room-font2 {
+        color: #000;
+    }
+    
+    .room-padding {
+        text-align: left;
+        padding-left: 40%;
+        color: #fff;
+    }
+    
+    #home-body {
+        background-image: url("assets/images/mainpageimage.jpeg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .image-menu {
+        display: block;
+        margin: 0 auto;
+        border: 5px;
+        border-color: black;
+    }
+    
+    .rest-font {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+    }
+    
+    .rest-head-font,
+    #rest-head-font2 {
+        color: #fff;
+    }
+    
+    #rest-body {
+        background-image: url("assets/images/restaurantmain.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .contact-font {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #000;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .special-note {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 15px;
+        color: #000;
+        margin: auto;
+        padding: 10px;
+        background: none;
+    }
+    
+    .contact-contact {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 15px;
+        color: #000;
+        margin: auto;
+        padding-bottom: 8px;
+        background: none;
+    }
+    
+    #contact-body {
+        background-image: url("assets/images/contactpage.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .contact1 {
+        width: 140px;
+        display: inline-block;
+        margin: auto;
+        font-family: 'Castoro', serif;
+        font-size: 15px;
+        padding-left: 40%;
+        text-align: left;
+        padding-bottom: 8px;
+    }
+    
+    #gal-body {
+        background-image: url("assets/images/gallerytweleve.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .gal-pic {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+        padding-left: 0; 
+      }
+      
+      .gal-pic .image-container {
+        order: 1; 
+      }
+      
+      .gal-pic img {
+        display: block;
+        margin-bottom: 10px;
+        border: 5px outset black;
+      }  
+    
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px;
+        border-color: black;
+        border-radius: 50%;
+    }
+    
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 50px;
+        }
+    
+        #cursive {
+            font-size: 30px;
+        }
+    
+        #cursive2 {
+            font-size: 15px;
+        }
+    
+        #navigation {
+            font-size: 15px;
+        }
+    
+        h2 {
+            font-size: 20px;
+        }
+    
+        .home-p,
+        .paragraph,
+        p,
+        ul {
+            font-size: 15px;
+        }
+    
+        .comments1,
+        .comments2,
+        .comments3 {
+            width: 100%;
+            height: 50vh;
+        }
+    
+        .room-padding {
+            padding-left: 10%;
+        }
+    
+        .image-menu {
+            margin: 0;
+        }
+    
+        .rest-font {
+            font-size: 15px;
+            padding: 5px;
+        }
+    
+        .contact-font,
+        .special-note,
+        .contact-contact,
+        .contact1 {
+            font-size: 15px;
+            padding: 5px;
+        }
+    
+        .gal-pic {
+            padding-left: 20%;
+        }
+    }
     
 }
 
 /* Laptops */
 @media (min-width: 768px) and (max-width: 1023px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        width: 100%;
+        position: relative;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 100px;
+        margin: 0;
+        padding: 0;
+        color: #f5f5f5;
+    }
+    
+    #cursive {
+        text-align: center;
+        font-family: 'Parisienne', cursive;
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        color: #f5f5f5;
+    }
+    
+    #cursive2 {
+        text-align: center;
+        font-family: 'Parisienne', cursive;
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        color: #f5f5f5;
+    }
+    
+    #navigation {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: none;
+    }
+    
+    .nav-text {
+        color: #000;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #f2f7fa;
+        border: double;
+        border-radius: 50px;
+    }
+    
+    h2 {
+        font-family: 'Castoro Titling', cursive;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .home-p {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    #home-padding {
+        text-align: left;
+        padding: 10px;
+        width: 400px;
+        height: 580px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        border: double;
+        margin: 0 auto;
+    }
+    
+    h3 {
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        margin: 0;
+        font-weight: bold;
+    }
+    
+    .paragraph {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+    }
+    
+    p {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+    }
+    
+    .comments1,
+    .comments2,
+    .comments3 {
+        background-color: rgba(192, 192, 192, 1);
+        width: 30vw;
+        height: 30vh;
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 5px;
+        border: 5px outset black;
+        border-radius: 20px 40px 5px 50px;
+        background-image: url("assets/images/fivestar.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #comments-head {
+        margin: auto;
+        padding: 5px;
+        height: fit-content;
+        width: fit-content;
+    }
+    
+    .comments-font {
+        font-size: 15px;
+    }
+    
+    ul {
+        text-align: center;
+        font-family: 'Castoro', serif;
+        font-size: 19px;
+        list-style-position: inside;
+        padding-top: 0;
+    }
+    
+    footer {
+        background-color: black;
+        text-align: center;
+        width: 100%;
+        height: 250px;
+        padding: 0;
+    }
+    
+    .footer-font1,
+    .footer-font2 {
+        text-decoration: none;
+        font-size: 18px;
+        color: gold;
+    }
+    
+    .footer-font2 {
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    #footer-font3 {
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    #room-body {
+        background-image: url("assets/images/roombackground.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .room-font {
+        color: #fff;
+    }
+    
+    .room-font2 {
+        color: #000;
+    }
+    
+    .room-padding {
+        text-align: left;
+        padding-left: 40%;
+        color: #fff;
+    }
+    
+    #home-body {
+        background-image: url("assets/images/mainpageimage.jpeg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .image-menu {
+        display: block;
+        margin: 0 auto;
+        border: 5px;
+        border-color: black;
+    }
+    
+    .rest-font {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+    }
+    
+    .rest-head-font,
+    #rest-head-font2 {
+        color: #fff;
+    }
+    
+    #rest-body {
+        background-image: url("assets/images/restaurantmain.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .contact-font {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #000;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .special-note {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 15px;
+        color: #000;
+        margin: auto;
+        padding: 10px;
+        background: none;
+    }
+    
+    .contact-contact {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 15px;
+        color: #000;
+        margin: auto;
+        padding-bottom: 8px;
+        background: none;
+    }
+    
+    #contact-body {
+        background-image: url("assets/images/contactpage.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .contact1 {
+        width: 140px;
+        display: inline-block;
+        margin: auto;
+        font-family: 'Castoro', serif;
+        font-size: 15px;
+        padding-left: 40%;
+        text-align: left;
+        padding-bottom: 8px;
+    }
+    
+    #gal-body {
+        background-image: url("assets/images/gallerytweleve.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .gal-pic {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+        padding-left: 0; 
+      }
+      
+      .gal-pic .image-container {
+        order: 1; 
+      }
+      
+      .gal-pic img {
+        display: block;
+        margin-bottom: 10px;
+        border: 5px outset black;
+      }  
+    
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px;
+        border-color: black;
+        border-radius: 50%;
+    }
+    
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 50px;
+        }
+    
+        #cursive {
+            font-size: 30px;
+        }
+    
+        #cursive2 {
+            font-size: 15px;
+        }
+    
+        #navigation {
+            font-size: 15px;
+        }
+    
+        h2 {
+            font-size: 20px;
+        }
+    
+        .home-p,
+        .paragraph,
+        p,
+        ul {
+            font-size: 15px;
+        }
+    
+        .comments1,
+        .comments2,
+        .comments3 {
+            width: 100%;
+            height: 50vh;
+        }
+    
+        .room-padding {
+            padding-left: 10%;
+        }
+    
+        .image-menu {
+            margin: 0;
+        }
+    
+        .rest-font {
+            font-size: 15px;
+            padding: 5px;
+        }
+    
+        .contact-font,
+        .special-note,
+        .contact-contact,
+        .contact1 {
+            font-size: 15px;
+            padding: 5px;
+        }
+    
+        .gal-pic {
+            padding-left: 20%;
+        }
+    }
    
 }
 
 /* Desktops */
 @media (min-width: 1024px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
     
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    width: 100%;
-    position: relative;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 100px;
-    margin: 0;
-    padding: 0;
-    color: #f5f5f5;
-}
-
-#cursive {
-    text-align: center;
-    font-family: 'Parisienne', cursive;
-    font-size: 50px;
-    margin: 0;
-    padding: 0;
-    color: #f5f5f5;
-}
-
-#cursive2 {
-    text-align: center;
-    font-family: 'Parisienne', cursive;
-    font-weight: bold;
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-    color: #f5f5f5;
-}
-
-#navigation {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: none;
-}
-
-.nav-text {
-    color: #000;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #f2f7fa;
-    border: double;
-    border-radius: 50px;
-}
-
-h2 {
-    font-family: 'Castoro Titling', cursive;
-    text-align: center;
-    font-size: 30px;
-    padding: 10px;
-    margin: 0;
-}
-
-.home-p {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
-    border-radius: 10px;
-}
-
-#home-padding {
-    text-align: left;
-    padding: 10px;
-    width: 400px;
-    height: 580px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    border: double;
-    margin: 0 auto;
-}
-
-h3 {
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-    font-size: 25px;
-    padding: 10px;
-    margin: 0;
-    font-weight: bold;
-}
-
-.paragraph {
-    font-family: 'Castoro', serif;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-    margin: auto;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-}
-
-p {
-    font-family: 'Castoro', serif;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-    margin: auto;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-}
-
-.comments1,
-.comments2,
-.comments3 {
-    background-color: rgba(192, 192, 192, 1);
-    width: 30vw;
-    height: 30vh;
-    text-align: center;
-    padding-bottom: 10px;
-    margin: 5px;
-    border: 5px outset black;
-    border-radius: 20px 40px 5px 50px;
-    background-image: url("assets/images/fivestar.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#comments-head {
-    margin: auto;
-    padding: 5px;
-    height: fit-content;
-    width: fit-content;
-}
-
-.comments-font {
-    font-size: 15px;
-}
-
-ul {
-    text-align: center;
-    font-family: 'Castoro', serif;
-    font-size: 19px;
-    list-style-position: inside;
-    padding-top: 0;
-}
-
-footer {
-    background-color: black;
-    text-align: center;
-    width: 100%;
-    height: 250px;
-    padding: 0;
-}
-
-.footer-font1,
-.footer-font2 {
-    text-decoration: none;
-    font-size: 18px;
-    color: gold;
-}
-
-.footer-font2 {
-    font-size: 12px;
-    color: #fff;
-}
-
-#footer-font3 {
-    font-size: 10px;
-    color: #fff;
-}
-
-#room-body {
-    background-image: url("assets/images/roombackground.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.room-font {
-    color: #fff;
-}
-
-.room-font2 {
-    color: #000;
-}
-
-.room-padding {
-    text-align: left;
-    padding-left: 40%;
-    color: #fff;
-}
-
-#home-body {
-    background-image: url("assets/images/mainpageimage.jpeg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.image-menu {
-    display: block;
-    margin: 0 auto;
-    border: 5px;
-    border-color: black;
-}
-
-.rest-font {
-    font-family: 'Castoro', serif;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-    margin: auto;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-}
-
-.rest-head-font,
-#rest-head-font2 {
-    color: #fff;
-}
-
-#rest-body {
-    background-image: url("assets/images/restaurantmain.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.contact-font {
-    font-family: 'Castoro', serif;
-    text-align: center;
-    font-size: 20px;
-    color: #000;
-    margin: auto;
-    padding: 10px;
-}
-
-.special-note {
-    font-family: 'Castoro', serif;
-    text-align: center;
-    font-size: 15px;
-    color: #000;
-    margin: auto;
-    padding: 10px;
-    background: none;
-}
-
-.contact-contact {
-    font-family: 'Castoro', serif;
-    text-align: center;
-    font-size: 15px;
-    color: #000;
-    margin: auto;
-    padding-bottom: 8px;
-    background: none;
-}
-
-#contact-body {
-    background-image: url("assets/images/contactpage.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.contact1 {
-    width: 140px;
-    display: inline-block;
-    margin: auto;
-    font-family: 'Castoro', serif;
-    font-size: 15px;
-    padding-left: 40%;
-    text-align: left;
-    padding-bottom: 8px;
-}
-
-#gal-body {
-    background-image: url("assets/images/gallerytweleve.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.gal-pic {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 5px auto;
-    padding-left: 0; 
-  }
-  
-  .gal-pic .image-container {
-    order: 1; 
-  }
-  
-  .gal-pic img {
-    display: block;
-    margin-bottom: 10px;
-    border: 5px outset black;
-  }  
-
-.image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px;
-    border-color: black;
-    border-radius: 50%;
-}
-
-@media (max-width: 768px) {
+    header {
+        width: 100%;
+        position: relative;
+    }
+    
     h1 {
-        font-size: 50px;
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 100px;
+        margin: 0;
+        padding: 0;
+        color: #f5f5f5;
     }
-
+    
     #cursive {
-        font-size: 30px;
+        text-align: center;
+        font-family: 'Parisienne', cursive;
+        font-size: 50px;
+        margin: 0;
+        padding: 0;
+        color: #f5f5f5;
     }
-
+    
     #cursive2 {
-        font-size: 15px;
+        text-align: center;
+        font-family: 'Parisienne', cursive;
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        color: #f5f5f5;
     }
-
+    
     #navigation {
-        font-size: 15px;
-    }
-
-    h2 {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
         font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: none;
     }
-
-    .home-p,
-    .paragraph,
-    p,
-    ul {
-        font-size: 15px;
+    
+    .nav-text {
+        color: #000;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #f2f7fa;
+        border: double;
+        border-radius: 50px;
     }
-
+    
+    h2 {
+        font-family: 'Castoro Titling', cursive;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .home-p {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    #home-padding {
+        text-align: left;
+        padding: 10px;
+        width: 400px;
+        height: 580px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        border: double;
+        margin: 0 auto;
+    }
+    
+    h3 {
+        font-family: 'Bebas Neue', sans-serif;
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+        margin: 0;
+        font-weight: bold;
+    }
+    
+    .paragraph {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+    }
+    
+    p {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
+    }
+    
     .comments1,
     .comments2,
     .comments3 {
+        background-color: rgba(192, 192, 192, 1);
+        width: 30vw;
+        height: 30vh;
+        text-align: center;
+        padding-bottom: 10px;
+        margin: 5px;
+        border: 5px outset black;
+        border-radius: 20px 40px 5px 50px;
+        background-image: url("assets/images/fivestar.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    #comments-head {
+        margin: auto;
+        padding: 5px;
+        height: fit-content;
+        width: fit-content;
+    }
+    
+    .comments-font {
+        font-size: 15px;
+    }
+    
+    ul {
+        text-align: center;
+        font-family: 'Castoro', serif;
+        font-size: 19px;
+        list-style-position: inside;
+        padding-top: 0;
+    }
+    
+    footer {
+        background-color: black;
+        text-align: center;
         width: 100%;
-        height: 50vh;
+        height: 250px;
+        padding: 0;
     }
-
+    
+    .footer-font1,
+    .footer-font2 {
+        text-decoration: none;
+        font-size: 18px;
+        color: gold;
+    }
+    
+    .footer-font2 {
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    #footer-font3 {
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    #room-body {
+        background-image: url("assets/images/roombackground.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .room-font {
+        color: #fff;
+    }
+    
+    .room-font2 {
+        color: #000;
+    }
+    
     .room-padding {
-        padding-left: 10%;
+        text-align: left;
+        padding-left: 40%;
+        color: #fff;
     }
-
+    
+    #home-body {
+        background-image: url("assets/images/mainpageimage.jpeg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     .image-menu {
-        margin: 0;
+        display: block;
+        margin: 0 auto;
+        border: 5px;
+        border-color: black;
     }
-
+    
     .rest-font {
-        font-size: 15px;
-        padding: 5px;
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px;
     }
-
-    .contact-font,
-    .special-note,
-    .contact-contact,
+    
+    .rest-head-font,
+    #rest-head-font2 {
+        color: #fff;
+    }
+    
+    #rest-body {
+        background-image: url("assets/images/restaurantmain.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .contact-font {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 20px;
+        color: #000;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .special-note {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 15px;
+        color: #000;
+        margin: auto;
+        padding: 10px;
+        background: none;
+    }
+    
+    .contact-contact {
+        font-family: 'Castoro', serif;
+        text-align: center;
+        font-size: 15px;
+        color: #000;
+        margin: auto;
+        padding-bottom: 8px;
+        background: none;
+    }
+    
+    #contact-body {
+        background-image: url("assets/images/contactpage.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     .contact1 {
+        width: 140px;
+        display: inline-block;
+        margin: auto;
+        font-family: 'Castoro', serif;
         font-size: 15px;
-        padding: 5px;
+        padding-left: 40%;
+        text-align: left;
+        padding-bottom: 8px;
     }
-
+    
+    #gal-body {
+        background-image: url("assets/images/gallerytweleve.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
     .gal-pic {
-        padding-left: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+        padding-left: 0; 
+      }
+      
+      .gal-pic .image-container {
+        order: 1; 
+      }
+      
+      .gal-pic img {
+        display: block;
+        margin-bottom: 10px;
+        border: 5px outset black;
+      }  
+    
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px;
+        border-color: black;
+        border-radius: 50%;
     }
+    
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 50px;
+        }
+    
+        #cursive {
+            font-size: 30px;
+        }
+    
+        #cursive2 {
+            font-size: 15px;
+        }
+    
+        #navigation {
+            font-size: 15px;
+        }
+    
+        h2 {
+            font-size: 20px;
+        }
+    
+        .home-p,
+        .paragraph,
+        p,
+        ul {
+            font-size: 15px;
+        }
+    
+        .comments1,
+        .comments2,
+        .comments3 {
+            width: 100%;
+            height: 50vh;
+        }
+    
+        .room-padding {
+            padding-left: 10%;
+        }
+    
+        .image-menu {
+            margin: 0;
+        }
+    
+        .rest-font {
+            font-size: 15px;
+            padding: 5px;
+        }
+    
+        .contact-font,
+        .special-note,
+        .contact-contact,
+        .contact1 {
+            font-size: 15px;
+            padding: 5px;
+        }
+    
+        .gal-pic {
+            padding-left: 20%;
+        }
+    }
+    
 }
+
