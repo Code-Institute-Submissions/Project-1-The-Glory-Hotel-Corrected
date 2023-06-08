@@ -36,7 +36,7 @@ The Hotel Photo Page showcases visual representations of the property.
 ![image](https://github.com/Imalsha0330/Project-1-The-Glory-Hotel-Corrected/assets/131761126/f31abe1f-d042-424d-a225-b73b788a7c32)
 Customers can choose to book online or contact the hotel directly for reservations.
 
-# Languages Used
+## Languages Used
 * HTML 
 * CSS 
 
@@ -52,7 +52,7 @@ Customers can choose to book online or contact the hotel directly for reservatio
 * There were bugs with "ID" selectors, which were resolved by converting them to "Class" selectors based on recommendations from the W3C validator.
 * I found and corrected a few spelling mistakes and typing errors.
 
-# Unfixed bugs
+## Unfixed bugs
 * No unfixed bugs.
 
 ## Testing in Validators
