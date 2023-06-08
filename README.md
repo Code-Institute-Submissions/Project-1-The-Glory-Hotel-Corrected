@@ -59,7 +59,7 @@ Customers can choose to book online or contact the hotel directly for reservatio
 - Home page tested in W3C HTML Validator ![image](https://github.com/Imalsha0330/Project-1-The-Glory-Hotel-Corrected/assets/131761126/2b621479-6769-4065-806f-3799df1d23ac)
 - Rooms page tested in W3C HTML Validator ![image](https://github.com/Imalsha0330/Project-1-The-Glory-Hotel-Corrected/assets/131761126/54bcf25c-a1b2-4382-bb1c-3e934b6ad0b4)
 - Restaurant page tested in W3C HTML Validator ![image](https://github.com/Imalsha0330/Project-1-The-Glory-Hotel-Corrected/assets/131761126/ada065dc-c485-4e9c-910e-bbc3cd3b2e98)
-- Gallery page tested in W3C HTML Validator ![image](https://github.com/Imalsha0330/Project-1-The-Glory-Hotel-Corrected/assets/131761126/14308762-d839-48a5-b2be-ea3b636e71e6)
+- Gallery page tested in W3C HTML Validator ![image](https://github.com/Imalsha0330/Project-1-The-Glory-Hotel-Corrected/assets/131761126/0ef17cd2-7b8b-4fa5-8dda-005960cfa46d)
 - Contact page tested in W3C HTML Validator ![image](https://github.com/Imalsha0330/Project-1-The-Glory-Hotel-Corrected/assets/131761126/c61112e0-7b3d-4802-beef-d4095a337e1f)
 - CSS Stylesheet tested in W3C CSS Jigsaw Validator ![image](https://github.com/Imalsha0330/Project-1-The-Glory-Hotel-Corrected/assets/131761126/5e2989a1-b9d8-4a31-ac6a-5c6a54581dbd)
 
